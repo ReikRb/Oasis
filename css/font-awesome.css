@@ -851,7 +851,7 @@
   content: "\f0f6";
 }
 .fa-building-o:before {
-  content: "\f0f7";
+  content: "\f113";
 }
 .fa-hospital-o:before {
   content: "\f0f8";
@@ -1669,4 +1669,45 @@
 }
 .fa-meanpath:before {
   content: "\f20c";
+}
+
+/* Relájate */
+.fa-relajate-spa:before {
+  content: "\f5bb"; /* fa-spa */
+}
+.fa-relajate-leaf:before {
+  content: "\f06c"; /* fa-leaf */
+}
+.fa-relajate-chair:before {
+  content: "\f6c0"; /* fa-chair */
+}
+
+/* Cerámica */
+.fa-ceramica-paint-brush:before {
+  content: "\f1fc"; /* fa-paint-brush */
+}
+.fa-ceramica-hand-sparkles:before {
+  content: "\f95d"; /* fa-hand-sparkles */
+}
+.fa-ceramica-palette:before {
+  content: "\f1c9"; /* fa-palette */
+}
+
+/* Pintura */
+.fa-pintura-palette:before {
+  content: "\f1c9"; /* fa-palette */
+}
+.fa-pintura-brush:before {
+  content: "\f55d"; /* fa-brush */
+}
+
+/* Mindfulness */
+.fa-mindfulness-lotus:before {
+  content: "\f682"; /* fa-lotus */
+}
+.fa-mindfulness-yin-yang:before {
+  content: "\f6ad"; /* fa-yin-yang */
+}
+.fa-mindfulness-head-side-relax:before {
+  content: "\f5d4"; /* fa-head-side-relax */
 }
