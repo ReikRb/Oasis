@@ -98,7 +98,7 @@ top: 64%;
 }
 .carousel-indicators li {
   background-color: rgba(0,0,0,0);
-  border: 1px solid #ed9e36;
+  border: 1px solid #f0c48c;
   border-radius: 0;
 }
 .carousel-indicators .active {
@@ -317,7 +317,6 @@ p {
     background: #d78f38;
     padding: 15px 0px;
     position: relative;
-    border-top: 2px solid #fff;
 }
 
 .header_box {
