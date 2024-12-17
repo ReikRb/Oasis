@@ -624,7 +624,7 @@ div#main-nav {
 
 #service {
     padding: 60px 0px;
-    background: #BC2A87;
+    background: #ed9e36;
 }
 #service h2{
   color: #fff;
@@ -1028,7 +1028,7 @@ background-position-y: 70px;
 	position: absolute;
 	font-family: FontAwesome;
 	font-size: 1.125em;
-	color: #BC2A87;
+	color: #ed9e36;
 	left: 0px;
 	top: 3px;
 }
@@ -1394,7 +1394,7 @@ transition: all .3s;
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #BC2A87;
+    background: #ed9e36;
 }
 
 .footer_bottom {
@@ -1530,10 +1530,10 @@ transition: all .3s;
 }
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-    background: #BC2A87;
+    background: #ed9e36;
     color: #FEE16F;
     text-decoration: none;
-    border: #BC2A87 solid 1px;
+    border: #ed9e36 solid 1px;
 }
 
 .section-title h2 {
