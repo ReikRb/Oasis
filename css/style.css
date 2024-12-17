@@ -319,6 +319,16 @@ p {
     position: relative;
 }
 
+#oasis_logo_li {
+    width: 50px;
+    position: relative;
+    right: 40%;
+}
+#oasis_logo {
+    width: 50px;
+    align-self:flex-start;
+    max-width: 50px;
+}
 .header_box {
     position: relative;
     /* z-index: 9999999999999999999999999999999999; */
@@ -596,6 +606,7 @@ a.read_more:hover {
 div#main-nav {
   width: 100%;
   text-align: center;
+  display: inline-flex;
 }	
 .navbar-nav {
   width: 100%;
