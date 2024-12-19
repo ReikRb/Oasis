@@ -1398,20 +1398,20 @@ transition: all .3s;
 }
 
 .footer_bottom {
-    border-top: 1px solid #CE6CAB;
+    border-top: 1px solid white;
     padding: 25px 0;
 }
 
 .footer_bottom span {
     display: block;
     font-size: 14px;
-    color: #F1ADD9;
+    color: white;
     text-align: center;
 }
 
 .footer_bottom span a {
     display: inline-block;
-    color: #FDD83D;
+    color: #533806;
     font-size: 16px;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1419,7 +1419,7 @@ transition: all .3s;
 }
 
 .footer_bottom span a:hover {
-    color: #fff;
+    color: #533806;
 }
 
 /* Animation Timers

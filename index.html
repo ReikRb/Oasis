@@ -6,6 +6,20 @@
   <meta name="viewport" content="width=device-width, maximum-scale=1">
   <title>Oasis</title>
   <link rel="icon" href="favicon.png" type="image/png">
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="css/bootstrap.min.css" as="style">
+  <link rel="preload" href="css/style.css" as="style">
+  <link rel="preload" href="css/font-awesome.css" as="style">
+  <link rel="preload" href="css/animate.css" as="style">
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+  <link rel="preload" href="img/slide1.jpg" as="image">
+  <link rel="preload" href="img/slide2.jpg" as="image">
+  <link rel="preload" href="img/slide3.jpg" as="image">
+  <link rel="preload" href="js/bootstrap.min.js" as="script">
+  <link rel="preload" href="js/fancybox/jquery.fancybox.css" as="style">
+
+  <!-- Load styles -->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
   <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -14,6 +28,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 
 </head>
+
 
 <body>
   <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
@@ -230,9 +245,11 @@
       </figure>
 
 
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   relax isotope-item effect-oscar">
-        <div class="portfolio_img"> <a href="img/relax2.jpg" class="fancybox"> <img src="img/relax2.jpg" alt="Portfolio 1"> </a> </div>       
-        </figure>
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four pottery mindfull painting relax isotope-item effect-oscar">
+        <iframe width="500" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>         </figure>
+
     </div>
   </div>
 
@@ -270,21 +287,21 @@
 				  <div class="carousel-inner">
 				    <div class="active item">
 				    	<blockquote>
-				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    		<p>En este centro lo estoy pasando muy bien. Me estoy relajando la verdad que vine con desconfianza pero lo necesitaba y ¡Menos mal que lo hice! Por que este año tengo unos alumnos que me estan destrozando, es la clase mas insoportable en lo que llevo de profesor. Con esta hora que estoy aqui me relajo muchísimo y con nuevas fuerzas para volver a clase.</p>
 				    	</blockquote>
-				    	<div class="profile-circle" style="background-color: rgba(0,0,0,.2);"></div>
+				    	<div class="profile-circle" style="background-image: url('img/cliente_1.jpg'); background-size: cover; background-position: center;"></div>
 				    </div>
 				    <div class="item">
 				    	<blockquote>
-				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    		<p>Estoy realmente impresionada con el servicio que he recibido. El equipo ha sido profesional y atento desde el primer momento.</p>
 				    	</blockquote>
-				    	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+				    	<div class="profile-circle" style="background-image: url('img/cliente_2.jpg'); background-size: cover; background-position: center;"></div>
 				    </div>
 				    <div class="item">
 				    	<blockquote>
-				    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.</p>
+				    		<p>La calidad del trabajo y espacio creado es excepcional. Sin duda volveré, ahora tengo un espacio donde descansar tranquilamente. Sin dudad  alguna, ¡Gracias!</p>
 				    	</blockquote>
-				    	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+				    	<div class="profile-circle" style="background-image: url('img/cliente_3.jpg'); background-size: cover; background-position: center;"></div>
 				    </div>
 				  </div>
 				</div>
@@ -316,7 +333,7 @@
                             </div>
                             <div class="detail">
                                 <h4>Llamanos</h4>
-                                <p>+34 699 999 999</p>
+                                <p>+34 943 000 000</p>
                             </div>
                             <div class="detail">
                                 <h4>Email us</h4>
@@ -327,10 +344,11 @@
 			  
           
           <ul class="social_links">
-            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
-            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
-            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li> 
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fab fa-facebook"></i></a></li>
+            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fab fa-pinterest"></i></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fab fa-google"></i></a></li>
+            
           </ul>
         </div>
         <div class="col-lg-8 wow fadeInLeft delay-06s">
