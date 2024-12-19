@@ -416,7 +416,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #FFD688;
+    color: #533806;
     background-color: transparent;
     border-radius: 4px;
 }
@@ -1524,14 +1524,14 @@ transition: all .3s;
     padding: 10px 22px;
     text-transform: uppercase;
     transition: all 0.3s ease-in-out 0s;
-    background: #fff;
+    background: #ffffff;
     border: #C2C2C2 solid 1px;
     color: #7C7C7C;
 }
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
     background: #ed9e36;
-    color: #FEE16F;
+    color: #533806;
     text-decoration: none;
     border: #ed9e36 solid 1px;
 }
